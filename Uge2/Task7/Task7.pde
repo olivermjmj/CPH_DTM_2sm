@@ -21,3 +21,24 @@ while (input > 0) {
 }
 
 //7.b
+println();
+
+
+input = 40;
+halfOfInput = input / 2;
+
+while (input > 0) {
+
+  println(input);
+  input--;
+  
+  if(input == halfOfInput) {
+  
+    println("Half!");
+    input--;
+  } else if (input == 6) {
+  
+    println(numberSix);
+    input--;
+  }
+}
